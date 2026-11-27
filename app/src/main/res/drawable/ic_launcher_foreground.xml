@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Nexora mark ("Tri-fold N"): an N made of three folded ribbons.
+  Left stem coral, right stem lime, and the diagonal in green laid over both.
+  Kept small on purpose: every corner is within 28dp of the centre (the safe zone radius is 33dp),
+  so round, squircle and teardrop launcher masks never clip it.
+  The launcher icon, splash screen, lock screen and in-app header mark all use this drawable.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF7F62"
+        android:strokeColor="#FF7F62"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"
+        android:pathData="M35.38,34 H46.42 V74 H35.38 Z" />
+    <path
+        android:fillColor="#D9F55A"
+        android:strokeColor="#D9F55A"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"
+        android:pathData="M61.58,34 H72.62 V74 H61.58 Z" />
+    <path
+        android:fillColor="#8CF25C"
+        android:strokeColor="#8CF25C"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round"
+        android:pathData="M35.38,34 H46.42 L72.62,74 H61.58 Z" />
+</vector>
